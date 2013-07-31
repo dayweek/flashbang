@@ -1,0 +1,8 @@
+# vim files
+*.swp
+
+# mac
+.DS_Store
+
+build/*
+

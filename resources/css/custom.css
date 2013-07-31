@@ -1,0 +1,74 @@
+.grenade-image {
+  background-image: url('../images/grenade.png');
+  width: 320px;
+  height: 480px;
+  -webkit-background-size: 320px 480px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+       .grenade-image { 
+       background-image: url('../images/grenade@2x.png');
+         
+         /*note: the actual image is double size*/
+       }
+}
+
+.settings-button {
+  background-image: url('../images/setting.png');
+  width: 32px;
+  height: 32px;
+  -webkit-background-size: 32px 32px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+       .settings-button { 
+       background-image: url('../images/setting@2x.png');
+         
+         /*note: the actual image is double size*/
+       }
+}
+
+/*.about {
+    color: white;
+}
+.about a {
+    color: yellow;
+}
+*/
+
+
+#settingsButton {
+  position: absolute;
+  left: 280px;
+  top: 5px;
+}
+
+#warning {
+    opacity: 0.0;
+    position: absolute;
+    top: 33%;
+    left: 0px;
+    width: 320px;
+    color: yellow;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Courier New";
+    font-weight: bold;
+    /*z-index: -1;*/
+}
+
+.labelText {
+  text-align: center;
+  font-size: 20px;
+}
+
+.white {
+
+
+            background-color: white;
+            z-index: 100;
+            width: 320px;
+            height: 480px;
+            opacity: 1.0;
+
+}
